@@ -12,7 +12,7 @@ def anagrama(palabra1, palabra2):
     # Convertimos ambas a minúsculas
     palabra1 = palabra1.lower()
     palabra2 = palabra2.lower()
-    # Luego convertimos las cadenas a arreglos, porque vamos a ordenarlas pero es más sencillo ordenar un arreglo
+    # Luego convertimos las cadenas a arreglos
     palabra1_arreglo = list(palabra1)
     palabra2_arreglo = list(palabra2)
     # Las ordenamos
@@ -26,8 +26,8 @@ def anagrama(palabra1, palabra2):
 
 
 def prueba():
-    cadena1 = "Trama"
-    cadena2 = "Marta"
+    cadena1 = "Riesgo"
+    cadena2 = "Sergio"
     
     es_anagrama = anagrama(cadena1, cadena2)
     
